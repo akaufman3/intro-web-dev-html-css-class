@@ -33,7 +33,7 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-      <section data-background="#000">
+        <section data-background="#000">
           <header>
             <a href="https://generalassemb.ly/">
               <h3>WIT @ Time Inc.</h3>
@@ -97,7 +97,7 @@
         <!-- slide 5: What is Web Development? -->
         <section data-background="#000">
           <h3>What is web development?</h3>
-          <p>The creation of programes and websites for the web</p>
+          <p>The creation of programs and websites for the web</p>
         </section>
         <!-- slide 6: What is code? -->
         <section class='future fragments' data-background="#000">
@@ -113,7 +113,7 @@
           </p>
         </section>
         <!-- slide 7: What is a text editor? -->
-        <section class='future fragments' data-background="#000">
+        <section data-background="#000">
           <h3>What is a text editor?</h3>
           <p>A text editor is where developers can write code. It can read any language and shows the developer the file structure.</p>
           <aside class='notes'>
@@ -122,12 +122,203 @@
           </aside>
         </section>
         <!-- slide 8: What are the building blocks of web development? -->
-        <section class='future fragments' data-background="#000">
-          <h3>What are the building blocks of web development?</h3>
-          <p>In web development, development is divided up into two responsibilities: front-end and back-end.</p>
-          <aside class='notes'>
-            - Many developers specialize in one or the other but some do both - this is called being full-stack.
-          </aside>
+        <section class='stack present' data-background="#000">
+          <section class='present'>
+            <h3>What are the building blocks of web development?</h3>
+            <p>In web development, development is divided up into two responsibilities: front-end and back-end.</p>
+            <table style="width:100%">
+              <tr>
+                <th>Front-End</th>
+                <th>Back-End</th>
+              </tr>
+              <tr>
+                <td>HTML</td>
+                <td>PHP</td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+                <td>Ruby</td>
+              </tr>
+              <tr>
+                <td>JS</td>
+                <td>Python</td>
+              </tr>
+            </table>
+            <aside class='notes'>
+              - Many developers specialize in one or the other but some do both - this is called being full-stack.
+            </aside>
+          </section>
+          <section class='future fragments'>
+            <h3>Today we will only be focusing on two of the Front-End languages</h3>
+            <div class='fragment'>
+              <h2>HTML & CSS</h2>
+            </div>
+          </section>
+          <section class='future fragments'>
+            <h3>What does HTML stand for?</h3>
+            <p class='fragment'>
+              HYPERTEXT MARK-UP LANGUAGE
+            </p>
+            <p class='fragment'>
+              HYPERTEXT - "a method by which you move around the web - like hyperlinks"
+            </p>
+            <p class='fragment'>
+              MARK-UP - "what HTML tags do to the text inside them - mark it as a certain type of text"
+            </p>
+             <p class='fragment'>
+              HTML - "is a language"
+            </p>
+            <a href='http://www.yourhtmlsource.com/starthere/whatishtml.html'><p class='fragment'>http://www.yourhtmlsource.com/starthere/whatishtml.html</p></a>
+            <aside class='notes'>
+            </aside>
+          </section>
+          <section class='future fragments'>
+            <h3>What can you do with HTML?</h3>
+            <p class='fragment' data-fragment-index="0">
+              It is used to build the structure of a document.
+            </p>
+            <p class='fragment'>
+              You build out the skeleton of your page using HTML - this is called "mark-up"
+            </p>
+            <p class='fragment'>
+              MARK-UP - you are telling the page what types of elements you would like to render
+            </p>
+            <aside class='notes'>
+            </aside>
+          </section>
+          <section class='future fragments'>
+            <h3>So what are the different types of HTML tags that I can use?</h3>
+            <div class='fragment'>
+              <a href='https://www.w3schools.com/tags/'><p>List of HTML tags</p></a>
+            </div>
+            <div class='fragment'>
+              <p>While there are many different types of HTML tags, here are the few that we will be focusing on today:</p>
+            </div>
+            <aside class='notes'>
+            </aside>
+          </section>
+          <section class='future'>
+            <table>
+              <thead style='font-size: 36px'>
+                <tr>
+                  <th>Tag</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody style='font-size: 22px'>
+                <tr>
+                  <td>&lt;html&gt;...&lt;/html&gt;</td>
+                  <td>States that the web page should be written in HTML mark-up</td>
+                </tr>
+                <tr>
+                  <td>&lt;head&gt;...&lt;/head&gt;</td>
+                  <td>Has instructions for the browser and meta data for the website</td>
+                </tr>
+                <tr>
+                  <td>&lt;style&gt;...&lt;/style&gt;</td>
+                  <td>Where stylesheets (CSS) are declared. Is found in the head.</td>
+                </tr>
+                <tr>
+                  <td>&lt;title&gt;...&lt;/title&gt;</td>
+                  <td>Declares the title of the page - this appears on the browser tab</td>
+                </tr>
+                <tr>
+                  <td>&lt;body&gt;...&lt;/body&gt;</td>
+                  <td>This is the body of the page - where most of your mark-up will go</td>
+                </tr>
+                <tr>
+                  <td>&lt;b&gt;...&lt;/b&gt;</td>
+                  <td>Make and element bold</td>
+                </tr>
+                <tr>
+                  <td>&lt;i&gt;...&lt;/i&gt;</td>
+                  <td>Make and element bold</td>
+                </tr>
+                <tr>
+                  <td>&lt;center&gt;...&lt;/center&gt;</td>
+                  <td>Centers an element on the page horizontally</td>
+                </tr>
+                <tr>
+                  <td>&lt;ul&gt;...&lt;/ul&gt;</td>
+                  <td>Creates an unordered list</td>
+                </tr>
+                <tr>
+                  <td>&lt;ol&gt;...&lt;/ol&gt;</td>
+                  <td>Creates a numbered list</td>
+                </tr>
+                <tr>
+                  <td>&lt;li&gt;...&lt;/li&gt;</td>
+                  <td>Adds an item to a ordered or numbered list</td>
+                </tr>
+                <tr>
+                  <td>&lt;br&gt;</td>
+                  <td>Forces a line break, dropping to the next line</td>
+                </tr>
+                <tr>
+                  <td>&lt;p&gt;...&lt;/p&gt;</td>
+                  <td>Creates a paragraph</td>
+                </tr>
+                <tr>
+                  <td>&lt;hr&gt;</td>
+                  <td>Creates a horizontal rule</td>
+                </tr>
+                <tr>
+                  <td>&lt;img src='...'&gt;</td>
+                  <td>Used to display and image</td>
+                </tr>
+                <tr>
+                  <td>&lt;a href='...'&gt;...&lt;/a&gt;</td>
+                  <td>Creates a link</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          <section class='future fragments'>
+            <h3>But there is one special element on your page.....</h3>
+            <div class='fragment'>
+              <p>The Document Type element</p>
+              <pre><code>&lt;!DOCTYPE html&gt;</code></pre>
+            </div>
+            <div class='fragment'>
+              <p>It appears at the top of the document page</p>
+            </div>
+            <div class='fragment'>
+              <p>It is not a HTML tag</p>
+            </div>
+            <div class='fragment'>
+              <p>It is actually an instruction to the web browser about what version of HTML the page is written in.</p>
+            </div>
+          </section>
+        </section>
+        <!-- slide 7: Lets start our personal portfolios! -->
+        <section class='stack present' data-background="#000" >
+          <section class='present'>
+            <h3>Lets start our personal portfolios!</h3>
+            <aside class='notes'>
+              - Does everyone have a Github account?
+              - Does everyone have a Thimble account?
+            </aside>
+          </section>
+          <section class='future'>
+              <h3>Lets talk about Thimble</h3>
+              <a href='https://thimble.mozilla.org/en-US/'><h2>https://thimble.mozilla.org/en-US/</h2></a>
+              <aside class='notes'>
+                - This is an online code editor
+                - Since most of you cannot download applications
+                - This closely resembles what a normal code editor would look like/development enviorment
+                - In some of the take home one-sheets I made, there are some links and info for using Sublime Editor which is the most commonly used code editor
+                - Talk about the different parts of Thimble
+                  - Division of HTML
+                  - Division of CSS
+                  - Talk about the file structure
+                  - Render - acts like localhost - local host is how you view your files locally - it mirrors, not always perfectly, what your work will look like when up on the web.
+                    - Always good to test your code locally first before pushing up to production
+              </aside>
+          </section>
+          <section class='future'>
+              <h3>Lets grab a photo from Unsplash</h3>
+              <a href='https://unsplash.com/'><h2>https://unsplash.com/</h2></a>
+          </section>
         </section>
 			</div>
 		</div>
