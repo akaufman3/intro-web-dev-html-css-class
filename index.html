@@ -56,7 +56,7 @@
           </header>
         </section>
         <!-- slide 2: Introduction Slide -->
-        <section data-background="#000">
+        <section data-background="#fff">
           <h1>Who are we?</h1>
           <h4>Amelia Kaufman <span style="font-size: 24px;">- Software Engineer: News Group</span></h4>
           <h4>Hedy Deng <span style="font-size: 24px;">- Software Engineer: InStyle, Essence</span></h4>
@@ -72,12 +72,14 @@
           </aside>
         </section>
         <!-- slide 3: The Internet vs. the Web -->
-				<section class='stack present' data-background="#000" >
-          <section class='present'>
-            <h3>So the internet is the same as the web, right?</h3>
+				<section class='stack present'>
+          <section class='present' data-background="#fff" >
+            <img style="box-shadow: none;" src="http://i.imgur.com/pM8gKMX.png"/>
+            <h3>INTERNET & THE WEB</h3>
+            <h4>So the internet is the same as the web, right?</h4>
           </section>
           <!-- slide 4: Internet -->
-          <section class='future fragments' data-background="#000">
+          <section class='future fragments' data-background="#000" >
             <h2 style="text-decoration: underline">The Internet</h2>
             <div style="text-align: left">
               <p class='fragment' data-fragment-index="0">
@@ -94,9 +96,16 @@
               </p>
             </div>
           </section>
-          <!-- slide 5: We are connected by wires -->
+          <!-- slide 5: Internet -->
+          <section class='future fragments' data-background="#000" >
+            <img style="float: left;" src="http://i.imgur.com/GHPsWGX.jpg" />
+            <img style="height: 300px;" src="http://i.imgur.com/5gGoXd6.jpg" />
+            <img style="float: left;" src="http://i.imgur.com/Au5O7r1.jpg" />
+            <img style="float: right;" src="http://i.imgur.com/FunYrfr.jpg" />
+          </section>
+          <!-- slide 6: We are connected by wires -->
           <section class='future' data-background="#000">
-            <h3>We are connected by wires</h3>
+            <h2>We are connected by wires</h2>
             <img style="height: 500px" src="http://i.imgur.com/UQLqjcX.png" />
             <p>Global Submarine Cable Map - <a href="http://www.submarinecablemap.com/"><span>TeleGeography</span></a></p>
             <aside class='notes'>
@@ -106,9 +115,9 @@
             </ul>
           </aside>
           </section>
-          <!-- slide 6: Global Internet Exchange -->
+          <!-- slide 7: Global Internet Exchange -->
           <section class='future' data-background="#000">
-            <h3>Global Internet Exchange Points</h3>
+            <h2>Global Internet Exchange Points</h2>
             <img style="height: 500px" src="http://i.imgur.com/Rn9z7W8.jpg" />
             <a href="http://www.submarinecablemap.com/"><span>TeleGeography</span></a>
             <aside class='notes'>
@@ -119,9 +128,9 @@
             </ul>
           </aside>
           </section>
-          <!-- slide 7: The Web -->
+          <!-- slide 8: The Web -->
           <section class='future fragments' data-background="#000">
-            <h3 style="text-decoration: underline">The Web</h3>
+            <h2 style="text-decoration: underline">The Web</h2>
             <div style="text-align: left">
               <p class='fragment' data-fragment-index="0">
                <span>Is the ability to access information <i>using</i> the internet</span><br>
@@ -143,203 +152,240 @@
               </p>
             </div>
           </section>
-        </section>
-        <!-- slide 8: What are protocols? -->
-        <section class='future fragments' data-background="#000">
+          <!-- slide 9: The Web -->
+          <section class='future fragments' data-background="#000">
+            <img style="float: left" src="http://www.fablabsd.org/wp-content/uploads/2012/12/howbrowserswork.jpg" />
+            <img style="right: left" src="http://www.fablabsd.org/wp-content/uploads/2012/12/web-ecosystem.jpg" />
+          </section>
+          <!-- slide 10: What happens when you enter a URL?-->
+          <section data-background="#000" >
+            <h3>What information does a URL contain?</h3>
+              <img src="http://i.imgur.com/xyirL01.jpg" /><br/>
+              <a href="http://www.fablabsd.org/wia-webdev-resources/"><em><small>http://www.fablabsd.org/wia-webdev-resources/</small></em></a>
+              <aside class='notes'>
+              <ul>
+                <li>www.your-website-name.com - is the server that the files live at</li>
+                <li>protocol, server, requested file</li>
+                <li>Browser sends request to the server for the requested file</li>
+                <li>Server returns the file to the browser which displays it's contents</li>
+                <li>Again, everything is connected by links so when you click a link, it does the same process of requesting a file from the server and delivering the file</li>
+              </ul>
+            </aside>
+          </section>
+          <!-- slide 11: What is the Internet? -->
+          <section data-background="#000" >
+            <h3>I use the internet every day, but how does it work?</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7_LPdttKXPc" frameborder="0" allowfullscreen></iframe>
+            <aside class='notes'>
+              <ul>
+                <li>This video will talk a bit about how information gets shared from one computer to another.</li>
+                <li>How sending an email works</li>
+              </ul>
+            </aside>
+          </section>
+          <!-- slide 12: What are protocols? -->
+          <section class='future fragments' data-background="#000">
             <h3 style="text-decoration: underline">What are protocols?</h3>
             <div style="text-align: left">
               <p class='fragment' data-fragment-index="0">
-                Transmission Control Protocol (TCP) breaks up data into packets to be sent and reassembles them at their destination.
+                <b>Transmission Control Protocol (TCP)</b> breaks up data into packets to be sent and reassembles them at their destination.
               </p>
               <p class='fragment' data-fragment-index="0">
-               Internet Protocol (IP) handles the formatting and addressing of the data packets.
+               <b>Internet Protocol (IP)</b> handles the formatting and addressing of the data packets.
               </p>
             </div>
-          </section>
-          <aside class='notes'>
-            <ul>
-              <li>Keeping it very simple today</li>
-            </ul>
-          </aside>
-        </section>
-        <!-- slide 9: What is the Internet? -->
-        <section data-background="#000" >
-          <h3>I use the internet every day, but how does it work?</h3>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/7_LPdttKXPc" frameborder="0" allowfullscreen></iframe>
-          <aside class='notes'>
-            <ul>
-              <li>This video will talk a bit about how information gets shared from one computer to another.</li>
-              <li>How sending an email works</li>
-            </ul>
-          </aside>
-        </section>
-        <!-- slide 10: So what is the web again? -->
-        <section data-background="#000" >
-          <h3>So what is the web again?</h3>
-          <ul>
-            <li>
-              If the internet is how information gets delivered from point a to point b
-            </li>
-            <li>
-              Then the web serves the content.
-            </li>
-            <li>
-              The Web is a connection of content linked by hyper links
-            </li>
-            <li>
-              You go to google.com search click a link, go to another site, click a link.... It's a web of links.
-            </li>
-            <li>
-              The web is simply "pages" linked together
-            </li>
-            <li>
-              This is why when you don't have internet you cannot access a website.
-            </li>
-          </ul>
-        </section>
-        <!-- slide 11: Who created the web? -->
-        <section data-background="#000" >
-          <h3>Who created the web?</h3>
-          <ul>
-            <li>
-              World Wide Web
-            </li>
-            <li>
-              Invented by Tim Berners-Lee in 1989
-            </li>
-            <li>
-              There are three parts that power the web:
-                <ul>
-                  <li>
-                    HyperText Transfer Protocol (HTTP) - HTTP/HTTPS is at the start of every url, helps to retrieve the text when you click a link to a new page (document)
-                  </li>
-                  <li>
-                    Uniform Resource Identifier (URI) - is a unique identifier for every item on the web
-                  </li>
-                  <li>
-                    Hypertext Markup Language (HTML) - is a coding langauge used to build and structure content on webpages
-                  </li>
-                <ul>
-            </li>
-          </ul>
-        </section>
-          <!-- slide 12: What happens when you enter a URL?-->
-        <section data-background="#000" >
-          <h3>What happens when you enter a URL into a browser?</h3>
-            <img src="http://i.imgur.com/xyirL01.jpg" /><br/>
-            <a href="http://www.fablabsd.org/wia-webdev-resources/"><em><small>http://www.fablabsd.org/wia-webdev-resources/</small></em></a>
             <aside class='notes'>
+              <ul>
+                <li>Keeping it very simple today</li>
+              </ul>
+            </aside>
+          </section>
+          <!-- slide 13: So what is the web again? -->
+          <section data-background="#000" >
+            <h3>So what is the web again?</h3>
             <ul>
-              <li>www.your-website-name.com - is the server that the files live at</li>
-              <li>protocol, server, requested file</li>
-              <li>Browser sends request to the server for the requested file</li>
-              <li>Server returns the file to the browser which displays it's contents</li>
-              <li>Again, everything is connected by links so when you click a link, it does the same process of requesting a file from the server and delivering the file</li>
+              <li>
+                If the internet is how information gets delivered from point a to point b
+              </li>
+              <li>
+                Then the web serves the content.
+              </li>
+              <li>
+                The Web is a connection of content linked by hyper links
+              </li>
+              <li>
+                You go to google.com search click a link, go to another site, click a link.... It's a web of links.
+              </li>
+              <li>
+                The web is simply "pages" linked together
+              </li>
+              <li>
+                This is why when you don't have internet you cannot access a website.
+              </li>
             </ul>
-          </aside>
-        </section>
-        <!-- slide 12: What is Web Development? -->
-        <section data-background='#000'>
-          <h3>What is web development?</h3>
-          <p>The creation of programs and websites for the web</p>
-          <aside class='notes'>
+          </section>
+          <!-- slide 14: Who created the web? -->
+          <section data-background="#000" >
+            <h3>Who created the web?</h3>
             <ul>
-              <li>You are creating more pages and links to be added to the web that can be accessed over the internet</li>
-              <li>Creating information that can be distributed over the web</li>
-              <li>Uses the internet to disseminate around the world</li>
+              <li>
+                World Wide Web
+              </li>
+              <li>
+                Invented by Tim Berners-Lee in 1989
+              </li>
+              <li>
+                There are three parts that power the web:
+                  <ul>
+                    <li>
+                      HyperText Transfer Protocol (HTTP) - HTTP/HTTPS is at the start of every url, helps to retrieve the text when you click a link to a new page (document)
+                    </li>
+                    <li>
+                      Uniform Resource Identifier (URI) - is a unique identifier for every item on the web
+                    </li>
+                    <li>
+                      Hypertext Markup Language (HTML) - is a coding langauge used to build and structure content on webpages
+                    </li>
+                  <ul>
+              </li>
             </ul>
-          </aside>
+          </section>
         </section>
-         <!-- slide 12: What is an average engineers day-to-day like? -->
-        <section class='stack present' data-background='#000'>
-          <section class='present'>
+        <!-- slide 15: What is Web Development? -->
+        <section class='stack present'>
+          <section data-background='#fff'>
+            <img style="box-shadow: none;" src="http://i.imgur.com/pM8gKMX.png" />
+            <h2>Web Development</h2>
+          </section>
+          <!-- slide 16: What is Web Development? -->
+          <section data-background='#000'>
+            <h2>What is Web Development?</h2>
+            <p>The creation of programs and websites for the web</p>
+            <aside class='notes'>
+              <ul>
+                <li>You are creating more pages and links to be added to the web that can be accessed over the internet</li>
+                <li>Creating information that can be distributed over the web</li>
+                <li>Uses the internet to disseminate around the world</li>
+              </ul>
+            </aside>
+          </section>
+          <!-- slide 16: What is code? -->
+          <section class='future fragments' data-background="#000">
+            <h3>What is code?</h3>
+            <p style="float: left; clear: both;">HTML</p>
+            <pre style="float: left; clear: both;"><code>
+                <h3>What is an average engineers day-to-day like?</h3>
+                <a href="http://imgur.com/QeyOMWA"><img style="background-color: white; height: 400px;" src="http://i.imgur.com/QeyOMWA.png" title="source: imgur.com" /></a>
+            </code></pre>
+            <p style="float: left; clear: both;" class='fragment'>
+                <span>Code can be a combination of letters, numbers and symbols</span><br>
+            </p>
+            <p style="float: left; clear: both; text-align: left" class='fragment'>
+              "Coding, or programming, is a way of writing instructions for computers that bridges the gap between how humans like to express themselves and how computers actually work" - The Economist
+            </p>
+          </section>
+          <!-- slide 17: What is the average stack used? -->
+          <section class='future fragments' data-background='#000'>
+            <h2>What is an average stack?</h2>
+            <img style="background-color: #fff;" src="https://www.planet-source-code.com/vb/2010Redesign/images/LangugeHomePages/HTML5_CSS_JavaScript.png" />
+            <aside class='notes'>
+              <ul>
+                <li>HTML & CSS are the foundations of the internet</li>
+                <li>HTML tags are the building blocks of websites</li>
+                <li>CSS adds style like colors but is also responsible for alignment, spacing, fonts and responsiveness</li>
+              </ul>
+            </aside>
+          </section>
+        </section>
+         <!-- slide 18: What is an average engineers day-to-day like? -->
+        <section class='stack present'>
+          <section data-background='#fff'>
+            <img style="box-shadow: none;" src="http://i.imgur.com/pM8gKMX.png" />
+            <h2>Engineering at Time Inc.</h2>
+          </section>
+          <section class='present' data-background='#000'>
             <h3>What is an average engineers day-to-day like?</h3>
             <a href="http://imgur.com/QeyOMWA"><img style="background-color: white; height: 400px;" src="http://i.imgur.com/QeyOMWA.png" title="source: imgur.com" /></a>
           </section>
-          <!-- slide 13: Waterfall sprint -->
-          <section class='future'>
-            <p>We run a waterfall sprint but its better to run an agile sprint</p>
+          <!-- slide 19: Waterfall sprint explained-->
+          <section data-background='#000'>
+            <p>We run a waterfall sprint</p>
+            <img src="http://i.imgur.com/cb70BPM.jpg"/>
           </section>
-          <!-- slide 13: Waterfall sprint explained-->
-          <section>
-            <p>This is waterfall sprint:</p>
-            <img src="http://i0.kym-cdn.com/photos/images/newsfeed/000/572/089/e5c.jpg" />
-          </section>
-          <!-- slide 14: Waterfall sprint explained-->
-          <section class='future'>
+          <!-- slide 20: Waterfall sprint explained-->
+          <section class='future' data-background='#000'>
             <p>This is what a waterfall sprint plan looks like</p>
             <p>This what product maintains with input from edit and dev</p>
-            <p>This is the high level, long term plan for projects</p>>
+            <p>This is the high level, long term plan for projects</p>
             <img src='https://blog.codinghorror.com/content/images/uploads/2006/11/6a0120a85dcdae970b0120a86d6e45970b-pi.png'>
           </section>
-          <!-- slide 15: Agile sprint-->
-          <section class='future'>
+          <!-- slide 21: Agile sprint-->
+          <section class='future' data-background='#000'>
             <p>This is agile sprint:</p>
             <img src="http://www.wedrawanimals.com/wp-content/uploads/2013/12/how-to-draw-a-great-horned-owl-step-by-step.png" />
           </section>
-          <!-- slide 16: Agile sprint explained -->
-          <section class='future'>
-            <p>It is better to be agile</p>
+          <!-- slide 22: Agile sprint explained -->
+          <section class='future' data-background='#000'>
+            <p>It is better to be agile - better to deploy small changes frequently</p>
             <p>We are waterfall because we are a print company</p>
             <p>Building a magazine is a waterfall sprint</p>
-            <p>We revovle around the print schedule, which is not itterated upon once decided</p>
+            <p>We revolve around the print schedule, which is not itterated upon once decided</p>
             <img src="http://testingfreak.com/wp-content/uploads/2014/12/agile2.png" />
           </section>
+          <!-- slide 23: What are tickets -->
+          <section class='future' data-background='#000'>
+            <h2>What is a ticket?</h2>
+            <img style="height: 500px;" src="http://i.imgur.com/kbR1cnz.png" />
+            <a href="https://tools.timeinc.net/jira/browse/NG-12701"><p>Example ticket</p></a>
+          </section>
+          <!-- slide 24: Q&A -->
+          <section class='future' data-background='#000'>
+            <h2>Engineering Q&A</h2>
+            <h3>- Break -</h3>
+          </section>
         </section>
-        <!-- slide 16: What is code? -->
-        <section class='future fragments' data-background="#000">
-          <h3>What is code?</h3>
-          <p class='fragment' data-fragment-index="0">
-              <span>Code can be a combination of letters, numbers and symbols</span><br>
-          </p>
-          <p class='fragment'>
-            "Coding, or programming, is a way of writing instructions for computers that bridges the gap between how humans like to express themselves and how computers actually work" - The Economist
-          </p>
-        </section>
-        <!-- slide 17: What is a text editor? -->
-        <section data-background="#000">
-          <h3>What is a text editor?</h3>
-          <p>A text editor is where developers can write code. It can read any language and shows the developer the file structure.</p>
-          <aside class='notes'>
-            - You dont have to download and use a text editor to edit code and test.
-            - Codepen, Thimble, etc. run in the browser
-          </aside>
-        </section>
-        <!-- slide 8: What are the building blocks of web development? -->
-        <section class='stack present' data-background="#000">
-          <section class='present'>
-            <h3>What are the building blocks of web development?</h3>
+        <!-- slide 25: What are the building blocks of web development? -->
+        <section class='stack present'>
+          <section class="present" data-background="#fff">
+            <img style="box-shadow: none;" src="http://i.imgur.com/pM8gKMX.png" />
+            <h2>The Building Blocks of Web Development</h2>
+          </section>
+          <!-- slide 26: Building blocks of Web Development -->
+          <section data-background="#000">
+            <h2>What are the building blocks of web development?</h2>
             <p>In web development, development is divided up into two responsibilities: front-end and back-end.</p>
-            <table style="width:100%">
+            <table style="width:100%;">
               <tr>
-                <th>Front-End</th>
-                <th>Back-End</th>
+                <th style="font-size: 40px; text-align: center;"><span style="color:#03ADE8;">Front-End</span></th>
+                <th style="font-size: 40px; text-align: center;"><span style="color:#03ADE8;">Back-End</span></th>
               </tr>
               <tr>
-                <td>HTML</td>
-                <td>PHP</td>
+                <td style="text-align: center;">HTML</td>
+                <td style="text-align: center;">PHP</td>
               </tr>
               <tr>
-                <td>CSS</td>
-                <td>Ruby</td>
+                <td style="text-align: center;">CSS</td>
+                <td style="text-align: center;">Ruby</td>
               </tr>
               <tr>
-                <td>JS</td>
-                <td>Python</td>
+                <td style="text-align: center;">JS</td>
+                <td style="text-align: center;">Python</td>
               </tr>
             </table>
             <aside class='notes'>
               - Many developers specialize in one or the other but some do both - this is called being full-stack.
             </aside>
           </section>
-          <section class='future fragments'>
-            <h3>Today we will only be focusing on two of the Front-End languages</h3>
+          <!-- slide 27: HTML/CSS -->
+          <section class='future fragments data-background="#000"' data-background="#000">
+            <h2>Today we will only be focusing on two of the Front-End languages:</h2>
             <div class='fragment'>
               <h2>HTML & CSS</h2>
             </div>
           </section>
-          <section class='future fragments'>
-            <h3>What does HTML stand for?</h3>
+          <!-- slide 28: HTML -->
+          <section class='future fragments data-background="#000"' data-background="#000">
+            <h2>What does HTML stand for?</h2>
             <p class='fragment'>
               HYPERTEXT MARK-UP LANGUAGE
             </p>
@@ -356,8 +402,9 @@
             <aside class='notes'>
             </aside>
           </section>
-          <section class='future fragments'>
-            <h3>What can you do with HTML?</h3>
+          <!-- slide 29: What can you do with HTML? -->
+          <section class='future fragments' data-background="#000">
+            <h2>What can you do with HTML?</h2>
             <p class='fragment' data-fragment-index="0">
               It is used to build the structure of a document.
             </p>
@@ -370,8 +417,9 @@
             <aside class='notes'>
             </aside>
           </section>
-          <section class='future fragments'>
-            <h3>So what are the different types of HTML tags that I can use?</h3>
+          <!-- slide 30: HTML Tags -->
+          <section class='future fragments' data-background="#000">
+            <h2>So what are the different types of HTML tags that I can use?</h2>
             <div class='fragment'>
               <a href='https://www.w3schools.com/tags/'><p>List of HTML tags</p></a>
             </div>
@@ -381,7 +429,8 @@
             <aside class='notes'>
             </aside>
           </section>
-          <section class='future'>
+          <!-- slide 31: Types of tags we will be using today -->
+          <section class='future' data-background="#000">
             <table>
               <thead style='font-size: 36px'>
                 <tr>
@@ -457,7 +506,8 @@
               </tbody>
             </table>
           </section>
-          <section class='future fragments'>
+          <!-- slide 32: Document Type Element -->
+          <section class='future fragments' data-background="#000">
             <h3>But there is one special element on your page.....</h3>
             <div class='fragment'>
               <p>The Document Type element</p>
@@ -473,7 +523,8 @@
               <p>It is actually an instruction to the web browser about what version of HTML the page is written in.</p>
             </div>
           </section>
-          <section class='future fragments'>
+          <!-- slide 33: CSS -->
+          <section class='future fragments' data-background="#000">
             <h3>CSS</h3>
             <p>Cascading Style Sheets</p>
             <div class='fragment'>
@@ -485,7 +536,8 @@
                 <li>External - by using an external CSS file</li>
             </div>
           </section>
-          <section class='future fragments'>
+          <!-- slide 34: CSS Rules -->
+          <section class='future fragments' data-background="#000">
             When you create a style for an element using CSS, you are creating a CSS rule:
             <img src='https://www.w3schools.com/css/selector.gif'/>
             <ul>
@@ -503,7 +555,8 @@
               </li>
             </ul>
           </section>
-          <section class='future fragments'>
+          <!-- slide 35: Targeting an element with CSS -->
+          <section class='future fragments' data-background="#000">
             <h3>What are the different ways you can target an element?</h3>
             <p>Types of selectors:</p>
             <ul>
@@ -513,13 +566,35 @@
             </ul>
           </section>
         </section>
-        <!-- slide 7: Lets start our personal portfolios! -->
-        <section class='stack present' data-background="#000" >
+        <!-- slide 36: Personal Portfolio: Start -->
+        <section class='stack present' data-background="#fff" >
           <section class='present'>
-            <h3>Lets start our personal portfolios!</h3>
+            <h2>Lets start our personal portfolios!</h2>
             <aside class='notes'>
               - Does everyone have a Github account?
               - Does everyone have a Thimble account?
+            </aside>
+          </section>
+          <!-- slide 36: What is Github? -->
+          <section class='present'>
+            <h2>Github</h2>
+            <p>"GitHub is a development platform inspired by the way you work. From open source to business, you can host and review code, manage projects, and build software alongside millions of other developers."</p>
+            <aside class='notes'>
+              <ul>
+                <li>When you develop locally, your code only existing on your computer.</li>
+                <li>Github stores a copy of your code so if your computer dies, your code doesnt go with it!</li>
+                <li>Github is a version control system</li>
+                <li>It keeps track of changes engineers make, allowing for change trackinga for collaboration amongst developers</li>
+              </ul>
+            </aside>
+          </section>
+          <!-- slide 24: What is a text editor? -->
+          <section data-background="#fff">
+            <h3>What is a text editor?</h3>
+            <p>A text editor is where developers can write code. It can read any language and shows the developer the file structure.</p>
+            <aside class='notes'>
+              - You dont have to download and use a text editor to edit code and test.
+              - Codepen, Thimble, etc. run in the browser
             </aside>
           </section>
           <section class='future'>
